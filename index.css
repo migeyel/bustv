@@ -1,0 +1,64 @@
+h1 {
+    font-family: Times, serif;
+}
+
+#status {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #aaa;
+}
+
+#jump {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #aaa;
+    margin-bottom: 1em;
+}
+
+#jump input {
+    outline: none;
+    width: 6em;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+#games {
+    width: 90%;
+    max-width: 50em;
+    min-width: 0;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    width: 10%;
+}
+
+td.hash {
+    max-width: 0;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-family: "Lucida Console", monospace;
+}
+
+.hash {
+    width: 90%;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
